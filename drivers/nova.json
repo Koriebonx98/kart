@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "driver",
+  "id": "nova",
+  "name": "Nova",
+  "color": "#4fc3f7",
+  "handlingClass": "balanced",
+  "stats": {
+    "speed": 7,
+    "acceleration": 7,
+    "handling": 7
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "driver",
+  "id": "pip",
+  "name": "Pip",
+  "color": "#ffd34e",
+  "handlingClass": "agile",
+  "stats": {
+    "speed": 7,
+    "acceleration": 7,
+    "handling": 7
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "driver",
+  "id": "rex",
+  "name": "Rex",
+  "color": "#ff654f",
+  "handlingClass": "speed",
+  "stats": {
+    "speed": 7,
+    "acceleration": 7,
+    "handling": 7
+  }
+}

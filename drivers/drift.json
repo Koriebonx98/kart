@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "driver",
+  "id": "drift",
+  "name": "Drift",
+  "color": "#ff9b42",
+  "handlingClass": "heavy",
+  "stats": {
+    "speed": 7,
+    "acceleration": 7,
+    "handling": 7
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "driver",
+  "id": "moss",
+  "name": "Moss",
+  "color": "#79d68c",
+  "handlingClass": "heavy",
+  "stats": {
+    "speed": 7,
+    "acceleration": 7,
+    "handling": 7
+  }
+}
