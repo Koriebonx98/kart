@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "wild-cup",
+  "name": "Wild Cup",
+  "tracks": [
+    "frostbite-pass",
+    "jungle-jam",
+    "clockwork-circuit",
+    "volcano-run"
+  ]
+}
