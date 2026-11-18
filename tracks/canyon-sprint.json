@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "canyon-sprint",
+  "name": "Canyon Sprint",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#9b704d",
+  "road": "#c18b55",
+  "sky": "#f4b16e",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -24,
+      -20
+    ],
+    [
+      0,
+      -36
+    ],
+    [
+      28,
+      -18
+    ],
+    [
+      36,
+      12
+    ],
+    [
+      12,
+      34
+    ],
+    [
+      -24,
+      24
+    ],
+    [
+      -36,
+      0
+    ]
+  ]
+}

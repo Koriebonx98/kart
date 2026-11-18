@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "jungle-jam",
+  "name": "Jungle Jam",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#376e42",
+  "road": "#57964e",
+  "sky": "#80c9a5",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -28,
+      -22
+    ],
+    [
+      -5,
+      -36
+    ],
+    [
+      25,
+      -24
+    ],
+    [
+      36,
+      5
+    ],
+    [
+      20,
+      32
+    ],
+    [
+      -12,
+      34
+    ],
+    [
+      -36,
+      8
+    ]
+  ]
+}

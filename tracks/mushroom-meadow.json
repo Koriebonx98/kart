@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "mushroom-meadow",
+  "name": "Mushroom Meadow",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#4c8052",
+  "road": "#72a85c",
+  "sky": "#9ad9f2",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -22,
+      -28
+    ],
+    [
+      10,
+      -36
+    ],
+    [
+      34,
+      -12
+    ],
+    [
+      26,
+      22
+    ],
+    [
+      0,
+      34
+    ],
+    [
+      -32,
+      20
+    ],
+    [
+      -36,
+      -8
+    ]
+  ]
+}

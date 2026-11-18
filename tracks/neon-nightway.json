@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "neon-nightway",
+  "name": "Neon Nightway",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#242844",
+  "road": "#343b5e",
+  "sky": "#171c48",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -30,
+      -10
+    ],
+    [
+      -18,
+      -34
+    ],
+    [
+      16,
+      -30
+    ],
+    [
+      34,
+      -5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      -10,
+      34
+    ],
+    [
+      -34,
+      12
+    ]
+  ]
+}

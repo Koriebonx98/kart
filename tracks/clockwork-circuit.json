@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "clockwork-circuit",
+  "name": "Clockwork Circuit",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#77736b",
+  "road": "#a39b8c",
+  "sky": "#e5c47a",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -30,
+      -20
+    ],
+    [
+      -12,
+      -35
+    ],
+    [
+      16,
+      -32
+    ],
+    [
+      34,
+      -12
+    ],
+    [
+      32,
+      18
+    ],
+    [
+      8,
+      34
+    ],
+    [
+      -22,
+      30
+    ],
+    [
+      -36,
+      2
+    ]
+  ]
+}

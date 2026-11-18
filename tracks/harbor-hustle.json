@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "track",
+  "id": "harbor-hustle",
+  "name": "Harbor Hustle",
+  "width": 12,
+  "lapSeconds": 28,
+  "ground": "#4f8790",
+  "road": "#5e9cae",
+  "sky": "#9bd9e8",
+  "edge": "#f4df9c",
+  "decoration": "#376b45",
+  "points": [
+    [
+      -30,
+      -15
+    ],
+    [
+      -15,
+      -34
+    ],
+    [
+      18,
+      -30
+    ],
+    [
+      34,
+      -8
+    ],
+    [
+      28,
+      22
+    ],
+    [
+      0,
+      34
+    ],
+    [
+      -30,
+      20
+    ]
+  ]
+}
