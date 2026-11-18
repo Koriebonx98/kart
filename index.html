@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10131c"><title>Kart Rush — Arcade Grand Prix</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="./">KR<span>✦</span></a><b>ARCADE GRAND PRIX</b><span class="top-right">GAME OS EDITION</span></header>
+<main>
+<section id="menu" class="menu-screen">
+  <div class="hero"><div class="eyebrow">🏁 THE GRID IS YOURS</div><h1>KART <em>RUSH</em></h1><p class="hero-copy">Pick your ride. Choose your world. Own the podium.</p>
+  <div class="menu-layout">
+    <div class="setup-card">
+      <div class="section-kicker">01 / RACE SETUP</div>
+      <div class="grid">
+        <label>CUP<select id="cup"><option value="sunset">Sunset Cup</option><option value="wild">Wild Cup</option></select></label>
+        <label>TRACK<select id="track"></select></label>
+        <label>LOCAL PLAYERS<select id="players"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+        <label>CPU RACERS<select id="bots"><option>7</option><option>6</option><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option><option>0</option></select></label>
+        <label>LAPS<select id="laps"><option>3</option><option>2</option><option>4</option><option>5</option></select></label>
+        <label>YOUR DRIVER<select id="driver"><option value="rex">Rex</option><option value="nova">Nova</option><option value="pip">Pip</option><option value="moss">Moss</option><option value="vex">Vex</option><option value="bolt">Bolt</option><option value="skye">Skye</option><option value="drift">Drift</option></select></label>
+        <label>YOUR KART<select id="kart"><option value="rally">Rally</option><option value="comet">Comet</option><option value="zip">Zip</option><option value="sprout">Sprout</option><option value="phantom">Phantom</option><option value="rocket">Rocket</option><option value="buggy">Buggy</option><option value="titan">Titan</option></select></label>
+      </div>
+      <p class="hint">1P: WASD / Arrows or Gamepad 1 · 2P: Arrows + Gamepad 2 (or Gamepads 1–2) · 3P–4P: Gamepads.</p>
+      <button id="start" class="primary big">▶ START RACE</button><p id="error" role="status"></p>
+    </div>
+    <aside class="side-card"><div class="section-kicker">02 / GARAGE</div><div class="kart-art"><div class="kart-shadow"></div><div class="kart-body"></div><div class="wheel w1"></div><div class="wheel w2"></div><div class="wheel w3"></div><div class="wheel w4"></div></div>
+      <h2>BUILD YOUR<br><em>LEGEND.</em></h2><p>Make tracks, drivers and karts in the Creator Studio.</p>
+      <a class="secondary-btn" href="studio.html">OPEN CREATOR STUDIO ↗</a>
+    </aside>
+  </div></div>
+</section>
+<section id="race" class="hidden"><div id="views"></div><div id="hud"><b id="trackName">TRACK</b><span id="clock">3</span><span id="raceInfo">GET READY</span><button id="pause" class="hud-btn">Ⅱ PAUSE</button><button id="quit" class="hud-btn">✕ QUIT</button></div></section>
+<section id="results" class="result-screen hidden"><div class="eyebrow">🏆 FINISH LINE</div><h1>RACE <em>OVER</em></h1><ol id="places"></ol><button id="again" class="primary">RACE AGAIN</button> <button id="home" class="secondary-btn">MAIN MENU</button></section>
+</main><script type="module" src="main.js"></script></body></html>

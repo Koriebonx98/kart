@@ -1,0 +1,29 @@
+{
+  "id": "kart-rush",
+  "name": "Kart Rush",
+  "version": "0.1.0",
+  "entry": "index.html",
+  "description": "An original 3D arcade kart racer with cups, split-screen, bots and a community mod studio.",
+  "genre": [
+    "racing",
+    "arcade"
+  ],
+  "players": {
+    "local": {
+      "min": 1,
+      "max": 4
+    },
+    "raceGridMax": 8
+  },
+  "content": {
+    "cups": 2,
+    "tracks": 8,
+    "drivers": 8,
+    "karts": 8
+  },
+  "runtime": "browser",
+  "integration": {
+    "gameOSSDK": "planned",
+    "onlineMultiplayer": "not-yet-implemented"
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kart Rush — Creator Studio</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="topbar"><a class="brand" href="index.html">KR<span>✦</span></a><b>CREATOR STUDIO</b><a class="top-right" href="index.html">← BACK TO GAME</a></header>
+<main class="studio-wrap"><div class="eyebrow">🛠️ MAKE IT YOURS</div><h1>CREATOR <em>STUDIO</em></h1><p class="hero-copy">Build a world, design a racer, and see your creation come alive.</p>
+<div class="studio-layout">
+<section class="setup-card editor">
+<div class="tabs"><button class="tab active" data-kind="track">TRACK</button><button class="tab" data-kind="driver">DRIVER</button><button class="tab" data-kind="kart">KART</button></div>
+<div class="grid two">
+<label>ASSET ID<input id="id" value="my-custom-asset"></label><label>DISPLAY NAME<input id="name" value="My Custom Track"></label>
+</div>
+<div id="trackFields">
+<div class="grid two">
+<label>ROAD COLOR<input id="road" type="color" value="#59616f"></label><label>GRASS COLOR<input id="ground" type="color" value="#39734d"></label>
+<label>SKY COLOR<input id="sky" type="color" value="#87b9d8"></label><label>ROAD WIDTH <output id="widthOut">12</output><input id="width" type="range" min="6" max="24" value="12"></label>
+</div>
+<label>TRACK SHAPE <span class="hint-inline">Choose a layout to start, then adjust the waypoints.</span>
+<select id="shape"><option value="oval">Fast oval</option><option value="clover">Clover loop</option><option value="zigzag">Mountain switchback</option><option value="custom">Custom waypoints</option></select></label>
+<label>WAYPOINTS — X,Z <span class="hint-inline">One pair per line. At least four points.</span><textarea id="points" rows="7">-25,-18
+0,-34
+28,-22
+34,8
+16,31
+-18,30
+-35,5</textarea></label>
+</div>
+<div id="characterFields" class="hidden">
+<div class="grid two"><label>MAIN COLOR<input id="color" type="color" value="#ff654f"></label><label>TOP SPEED <output id="speedOut">24</output><input id="speed" type="range" min="10" max="30" value="24"></label><label>ACCELERATION <output id="accelOut">8</output><input id="accel" type="range" min="2" max="20" value="8"></label></div>
+<label class="upload">MINECRAFT SKIN / DRIVER PORTRAIT (PNG)<input id="skin" type="file" accept="image/png,image/jpeg"></label>
+<div class="skin-preview"><img id="skinPreview" alt="Uploaded skin preview" class="hidden"><div id="skinEmpty">Upload a Minecraft skin PNG or any driver picture.</div></div>
+<p class="hint">The uploaded image is embedded in the exported driver JSON and shown as the driver's portrait. Full 3D Minecraft skin rigging is not included yet.</p>
+</div>
+<div class="actions"><button id="export" class="primary">↓ EXPORT ASSET</button><button id="pack" class="secondary-btn">EXPORT MOD PACK</button></div><pre id="output" aria-live="polite">Your asset preview will appear here.</pre>
+</section>
+<aside class="preview-card"><div class="preview-head"><div><div class="section-kicker">LIVE PREVIEW</div><h2 id="previewTitle">YOUR TRACK</h2></div><span class="live-pill">● LIVE</span></div><div id="preview3d"></div><div id="previewMeta" class="preview-meta">Drag your waypoints or change the layout to update the preview.</div><div class="preview-actions"><button id="refresh" class="secondary-btn">↻ REFRESH PREVIEW</button></div></aside>
+</div></main><script type="module" src="studio.js"></script></body></html>
