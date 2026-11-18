@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "sprout",
+  "name": "Sprout",
+  "bodyStyle": "compact",
+  "stats": {
+    "topSpeed": 8,
+    "acceleration": 9,
+    "grip": 7
+  }
+}

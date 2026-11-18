@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "titan",
+  "name": "Titan",
+  "bodyStyle": "heavy",
+  "stats": {
+    "topSpeed": 7,
+    "acceleration": 8,
+    "grip": 7
+  }
+}

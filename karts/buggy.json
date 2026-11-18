@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "buggy",
+  "name": "Buggy",
+  "bodyStyle": "offroad",
+  "stats": {
+    "topSpeed": 9,
+    "acceleration": 7,
+    "grip": 7
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "zip",
+  "name": "Zip",
+  "bodyStyle": "mini",
+  "stats": {
+    "topSpeed": 8,
+    "acceleration": 9,
+    "grip": 8
+  }
+}

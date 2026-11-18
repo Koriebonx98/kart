@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "rocket",
+  "name": "Rocket",
+  "bodyStyle": "rocket",
+  "stats": {
+    "topSpeed": 7,
+    "acceleration": 8,
+    "grip": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "phantom",
+  "name": "Phantom",
+  "bodyStyle": "sleek",
+  "stats": {
+    "topSpeed": 9,
+    "acceleration": 7,
+    "grip": 8
+  }
+}

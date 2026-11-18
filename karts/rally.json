@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "kind": "kart",
+  "id": "rally",
+  "name": "Rally",
+  "bodyStyle": "rally",
+  "stats": {
+    "topSpeed": 8,
+    "acceleration": 9,
+    "grip": 8
+  }
+}
